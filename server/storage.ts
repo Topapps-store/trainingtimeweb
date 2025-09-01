@@ -159,6 +159,7 @@ export class MemStorage implements IStorage {
       id,
       createdAt: new Date(),
       isRead: false,
+      message: insertContact.message || null,
     };
     this.contacts.set(id, contact);
     return contact;
@@ -192,6 +193,9 @@ export class MemStorage implements IStorage {
       ...insertTestimonial,
       id,
       createdAt: new Date(),
+      rating: insertTestimonial.rating || "5",
+      imageUrl: insertTestimonial.imageUrl || null,
+      isActive: insertTestimonial.isActive ?? true,
     };
     this.testimonials.set(id, testimonial);
     return testimonial;
@@ -209,6 +213,8 @@ export class MemStorage implements IStorage {
       ...insertTransformation,
       id,
       createdAt: new Date(),
+      imageUrl: insertTransformation.imageUrl || null,
+      isActive: insertTransformation.isActive ?? true,
     };
     this.transformations.set(id, transformation);
     return transformation;

@@ -219,6 +219,7 @@ export default function Contact() {
                           placeholder="Explica'ns els teus objectius..."
                           className="resize-none"
                           {...field}
+                          value={field.value || ""}
                           data-testid="textarea-message"
                         />
                       </FormControl>
