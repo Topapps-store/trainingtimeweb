@@ -1,0 +1,25 @@
+interface TrainingTimeLogoProps {
+  className?: string;
+  variant?: "color" | "white" | "black";
+}
+
+export default function TrainingTimeLogo({ className = "h-12 w-auto", variant = "color" }: TrainingTimeLogoProps) {
+  const getLogoSrc = () => {
+    switch (variant) {
+      case "white":
+        return "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSI0MCIgY3k9IjQwIiByPSIzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTI1IDQwSDMyTDM1IDMwTDQwIDUwTDQ1IDI1TDUwIDQ1TDU1IDQwSDYyIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIvPgo8dGV4dCB4PSI4MCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJJbnRlciIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI0ZGRkZGRiI+VFJBSU5JTkcgVElNRTwvdGV4dD4KPHR5cGUgeD0iODAiIHk9IjU1IiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSI0MDAiIGZpbGw9IiNGRkZGRkYiPkVOVFJFTkFNRU5UIFBFUlNPTkFMPC90ZXh0Pgo8L3N2Zz4K";
+      case "black":
+        return "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSI0MCIgY3k9IjQwIiByPSIzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTI1IDQwSDMyTDM1IDMwTDQwIDUwTDQ1IDI1TDUwIDQ1TDU1IDQwSDYyIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIvPgo8dGV4dCB4PSI4MCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJJbnRlciIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzAwMDAwMCI+VFJBSU5JTkcgVElNRTwvdGV4dD4KPHR5cGUgeD0iODAiIHk9IjU1IiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSI0MDAiIGZpbGw9IiMwMDAwMDAiPkVOVFJFTkFNRU5UIFBFUlNPTkFMPC90ZXh0Pgo8L3N2Zz4K";
+      default:
+        return "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSI0MCIgY3k9IjQwIiByPSIzMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRjREMDNGIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTI1IDQwSDMyTDM1IDMwTDQwIDUwTDQ1IDI1TDUwIDQ1TDU1IDQwSDYyIiBzdHJva2U9IiNGNEQwM0YiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIvPgo8dGV4dCB4PSI4MCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJJbnRlciIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzJDM0U1MCI+VFJBSU5JTkcgVElNRTwvdGV4dD4KPHR5cGUgeD0iODAiIHk9IjU1IiBmb250LWZhbWlseT0iSW50ZXIiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSI0MDAiIGZpbGw9IiNGNEQwM0YiPkVOVFJFTkFNRU5UIFBFUlNPTkFMPC90ZXh0Pgo8L3N2Zz4K";
+    }
+  };
+
+  return (
+    <img 
+      src={getLogoSrc()} 
+      alt="Training Time - Entrenament Personal" 
+      className={className}
+    />
+  );
+}
