@@ -67,7 +67,7 @@ export default function DecisionSection() {
               data-testid="button-form-cta"
             >
               <i className="fas fa-clipboard-check mr-2"></i>
-              AVALUACIÓ GRATUÏTA
+              OMPLIR FORMULARI
             </button>
             <button
               onClick={handleFinalCTAClick}

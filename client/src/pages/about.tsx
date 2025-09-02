@@ -9,8 +9,8 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600" 
-              alt="Fundador Training Time"
+              src="@assets/54542830397_d63810277d_o_1756801989473.jpeg" 
+              alt="Francesc Cremades - Fundador Training Time"
               className="rounded-xl shadow-lg w-full"
               data-testid="img-founder"
             />
@@ -21,10 +21,10 @@ export default function About() {
               <i className="fas fa-quote-left text-2xl text-primary mb-4"></i>
               <div className="space-y-4 text-lg">
                 <p data-testid="text-founder-intro">
-                  "Em dic <strong>[NOM DEL FUNDADOR]</strong> i porto més de [X] anys treballant com a entrenador personal online (i uns altres tants en presencial).
+                  "Em dic <strong>Francesc Cremades</strong> i porto més de 12 anys treballant com a entrenador personal, amb 3 anys d'experiència com a preparador físic a l'ACB.
                 </p>
                 <p data-testid="text-founder-experience">
-                  Després de tractar amb desenes de clients diferents i veure els mateixos problemes en homes +40 anys amb feines molt exigents, fa [X] anys vaig decidir crear per a ells el programa <strong>TRAINING TIME.</strong>
+                  Com a pare de dos nens i amb experiència en alt rendiment esportiu, he ajudat a més de 100 persones a transformar el seu físic. Després de veure els mateixos problemes en homes +40 anys amb feines molt exigents, vaig decidir crear per a ells el programa <strong>TRAINING TIME.</strong>
                 </p>
                 <p data-testid="text-founder-mission">
                   Un sistema exclusiu perquè, els que tenen molt poc temps lliure, puguin tenir un <strong>físic en forma, potenciar el seu rendiment i assegurar una salut present i futura.</strong>"
@@ -34,15 +34,15 @@ export default function About() {
             
             <div className="grid grid-cols-3 gap-4 text-center">
               <div>
-                <div className="text-2xl font-bold text-primary" data-testid="text-experience-years">+[X]</div>
+                <div className="text-2xl font-bold text-primary" data-testid="text-experience-years">+12</div>
                 <div className="text-sm text-muted-foreground">Anys d'experiència</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary" data-testid="text-clients-transformed">+[X]</div>
+                <div className="text-2xl font-bold text-primary" data-testid="text-clients-transformed">+100</div>
                 <div className="text-sm text-muted-foreground">Clients transformats</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary" data-testid="text-success-rate">[X]%</div>
+                <div className="text-2xl font-bold text-primary" data-testid="text-success-rate">95%</div>
                 <div className="text-sm text-muted-foreground">Èxit garantit</div>
               </div>
             </div>

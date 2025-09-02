@@ -30,7 +30,7 @@ export default function HeroSection() {
             data-testid="button-hero-form"
           >
             <i className="fas fa-clipboard-check mr-2"></i>
-            Avaluació Gratuïta
+            Formulari d'Interès
           </button>
           <button
             onClick={handleContactClick}
