@@ -2,7 +2,7 @@ import ServicesSection from "@/components/sections/services-section";
 
 export default function Services() {
   const handleContactClick = (serviceType: string) => {
-    const whatsappUrl = `https://wa.me/34XXXXXXXXX?text=Hola!%20M'interessa%20el%20servei%20de%20${serviceType}`;
+    const whatsappUrl = `https://wa.me/376379750?text=Hola!%20M'interessa%20el%20servei%20de%20${serviceType}`;
     window.open(whatsappUrl, "_blank");
   };
 

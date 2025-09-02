@@ -7,7 +7,7 @@ export default function ResultsGallery() {
   });
 
   const handleResultsClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX?text=Hola!%20Vull%20veure%20més%20resultats%20dels%20vostres%20clients";
+    const whatsappUrl = "https://wa.me/376379750?text=Hola!%20Vull%20veure%20més%20resultats%20dels%20vostres%20clients";
     window.open(whatsappUrl, "_blank");
   };
 

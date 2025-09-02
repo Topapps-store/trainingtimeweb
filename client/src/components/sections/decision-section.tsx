@@ -1,7 +1,12 @@
 export default function DecisionSection() {
   const handleFinalCTAClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX?text=Hola!%20Vull%20sol·licitar%20accés%20al%20programa%20Training%20Time";
+    const whatsappUrl = "https://wa.me/376379750?text=Hola!%20Vull%20sol·licitar%20accés%20al%20programa%20Training%20Time";
     window.open(whatsappUrl, "_blank");
+  };
+
+  const handleFormClick = () => {
+    const formUrl = "https://forms.gle/d7wvaSotUTXKdjD88";
+    window.open(formUrl, "_blank");
   };
 
   const options = [
@@ -55,13 +60,23 @@ export default function DecisionSection() {
         <div className="text-center mt-16">
           <h3 className="text-2xl font-bold mb-6">I si encara continues llegint això, és que saps la resposta correcta.</h3>
           <p className="text-xl text-muted-foreground mb-8">És el moment de prendre acció.</p>
-          <button
-            onClick={handleFinalCTAClick}
-            className="bg-primary text-primary-foreground px-12 py-4 rounded-lg text-xl font-bold hover:opacity-90 transition-opacity"
-            data-testid="button-final-cta"
-          >
-            SOL·LICITAR ACCÉS
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button
+              onClick={handleFormClick}
+              className="bg-success text-success-foreground px-10 py-4 rounded-lg text-lg font-bold hover:opacity-90 transition-opacity shadow-lg"
+              data-testid="button-form-cta"
+            >
+              <i className="fas fa-clipboard-check mr-2"></i>
+              AVALUACIÓ GRATUÏTA
+            </button>
+            <button
+              onClick={handleFinalCTAClick}
+              className="bg-primary text-primary-foreground px-12 py-4 rounded-lg text-xl font-bold hover:opacity-90 transition-opacity"
+              data-testid="button-final-cta"
+            >
+              SOL·LICITAR ACCÉS
+            </button>
+          </div>
         </div>
       </div>
     </section>

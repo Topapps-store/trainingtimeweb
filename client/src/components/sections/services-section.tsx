@@ -1,11 +1,11 @@
 export default function ServicesSection() {
   const handleOnlinePlanClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX?text=Hola!%20M'interessen%20els%20plans%20online%20trimestrals";
+    const whatsappUrl = "https://wa.me/376379750?text=Hola!%20M'interessen%20els%20plans%20online%20trimestrals";
     window.open(whatsappUrl, "_blank");
   };
 
   const handlePersonalTrainingClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX?text=Hola!%20M'interessa%20l'entrenament%20personal%20presencial";
+    const whatsappUrl = "https://wa.me/376379750?text=Hola!%20M'interessa%20l'entrenament%20personal%20presencial";
     window.open(whatsappUrl, "_blank");
   };
 

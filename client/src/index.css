@@ -18,6 +18,8 @@
   --muted-foreground: hsl(0, 0%, 70%);
   --accent: #D4AF37;
   --accent-foreground: #232323;
+  --success: #22c55e;
+  --success-foreground: #ffffff;
   --destructive: hsl(0, 84.2%, 60.2%);
   --destructive-foreground: hsl(0, 0%, 98%);
   --border: #404040;

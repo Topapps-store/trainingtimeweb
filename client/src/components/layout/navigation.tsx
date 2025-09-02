@@ -13,7 +13,7 @@ export default function Navigation() {
   ];
 
   const handleContactClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX";
+    const whatsappUrl = "https://wa.me/376379750";
     window.open(whatsappUrl, "_blank");
   };
 

@@ -91,7 +91,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contacte</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li data-testid="text-phone">+34 XXX XXX XXX</li>
+              <li data-testid="text-phone">+376 379 750</li>
               <li data-testid="text-email">info@trainingtime.cat</li>
               <li data-testid="text-location">Barcelona, Catalunya</li>
             </ul>

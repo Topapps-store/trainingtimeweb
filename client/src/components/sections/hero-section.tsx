@@ -2,8 +2,13 @@ import { Link } from "wouter";
 
 export default function HeroSection() {
   const handleContactClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX";
+    const whatsappUrl = "https://wa.me/376379750";
     window.open(whatsappUrl, "_blank");
+  };
+
+  const handleFormClick = () => {
+    const formUrl = "https://forms.gle/d7wvaSotUTXKdjD88";
+    window.open(formUrl, "_blank");
   };
 
   return (
@@ -15,10 +20,18 @@ export default function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
-          No és pereza ni poca disciplina, és no tenir un <strong>pla clar, senzill i estructurat.</strong>
+          No és mandra ni poca disciplina, és no tenir un <strong>pla clar, senzill i estructurat.</strong>
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button
+            onClick={handleFormClick}
+            className="bg-success text-success-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity shadow-lg"
+            data-testid="button-hero-form"
+          >
+            <i className="fas fa-clipboard-check mr-2"></i>
+            Avaluació Gratuïta
+          </button>
           <button
             onClick={handleContactClick}
             className="bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"

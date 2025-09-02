@@ -75,7 +75,7 @@ export default function Contact() {
                 <i className="fab fa-whatsapp text-2xl text-primary mr-4"></i>
                 <div>
                   <div className="font-semibold">WhatsApp</div>
-                  <div className="text-muted-foreground" data-testid="text-whatsapp">+34 XXX XXX XXX</div>
+                  <div className="text-muted-foreground" data-testid="text-whatsapp">+376 379 750</div>
                 </div>
               </div>
               

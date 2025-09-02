@@ -33,7 +33,7 @@ export default function SolutionSection() {
   ];
 
   const handleLearnMoreClick = () => {
-    const whatsappUrl = "https://wa.me/34XXXXXXXXX";
+    const whatsappUrl = "https://wa.me/376379750";
     window.open(whatsappUrl, "_blank");
   };
 
@@ -54,8 +54,8 @@ export default function SolutionSection() {
               className="p-6 bg-card rounded-lg shadow-sm border hover-lift"
               data-testid={`card-solution-${index}`}
             >
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <i className={`${solution.icon} text-2xl text-primary-foreground`}></i>
+              <div className="w-16 h-16 bg-success rounded-full flex items-center justify-center mx-auto mb-4">
+                <i className={`${solution.icon} text-2xl text-success-foreground`}></i>
               </div>
               <h3 className="text-xl font-semibold mb-3">{solution.title}</h3>
               <p className="text-muted-foreground">{solution.description}</p>
