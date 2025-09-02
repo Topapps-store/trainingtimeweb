@@ -42,8 +42,8 @@ export default function About() {
                 <div className="text-sm text-muted-foreground">Clients transformats</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary" data-testid="text-success-rate">95%</div>
-                <div className="text-sm text-muted-foreground">Èxit garantit</div>
+                <div className="text-2xl font-bold text-primary" data-testid="text-years-acb">3</div>
+                <div className="text-sm text-muted-foreground">Anys a l'ACB</div>
               </div>
             </div>
           </div>
