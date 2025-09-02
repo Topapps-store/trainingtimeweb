@@ -12,20 +12,20 @@ export default function DecisionSection() {
   const options = [
     {
       number: 1,
-      title: "NO FER RES",
-      description: "Seguir com fins ara, veient com la teva energia baixa cada vegada més, com la panxa i l'estrès s'apoderen del teu cos.",
+      title: "MANTENIR L'STATUS QUO",
+      description: "Continuar amb la rutina actual, acceptant que les coses es mantinguin com estan.",
       color: "destructive",
     },
     {
       number: 2,
-      title: "INTENTAR FER-HO TU SOL",
-      description: "Seguir provant «dietes miracle», veient vídeos a xarxes, comprant suplements a l'atzar... i tornant al mateix punt.",
+      title: "PROVAR PER TU MATEIX",
+      description: "Intentar trobat la teva pròpia solució amb la informació que trobes per internet, encara que pot ser un camí més llarg.",
       color: "accent",
     },
     {
       number: 3,
-      title: "UNIR-TE AL PROGRAMA",
-      description: "Fer un pas endavant, invertir en la teva salut i tenir la seguretat de comptar amb un equip professional i un mètode provat.",
+      title: "INVERTIR EN LA TEVA SALUT",
+      description: "Decidir-te a cuidar-te amb l'ajuda d'un professional i un mètode personalitzat que t'acompanyi en el procés.",
       color: "primary",
     },
   ];
@@ -35,7 +35,7 @@ export default function DecisionSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Arribats a aquest punt, és moment de prendre una decisió i NOMÉS hi ha 3 opcions:
+            Tens 3 camins per endavant, quin triaries?
           </h2>
         </div>
         
@@ -58,8 +58,8 @@ export default function DecisionSection() {
         </div>
         
         <div className="text-center mt-16">
-          <h3 className="text-2xl font-bold mb-6">I si encara continues llegint això, és que saps la resposta correcta.</h3>
-          <p className="text-xl text-muted-foreground mb-8">És el moment de prendre acció.</p>
+          <h3 className="text-2xl font-bold mb-6">Si has arribat fins aquí, potser és hora de fer el pas.</h3>
+          <p className="text-xl text-muted-foreground mb-8">Comença el teu camí cap a una vida més saludable.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={handleFormClick}

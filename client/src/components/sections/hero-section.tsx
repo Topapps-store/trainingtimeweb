@@ -15,12 +15,12 @@ export default function HeroSection() {
     <section className="hero-gradient text-white py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          Sents que la teva feina no et deixa temps<br />
-          <span className="text-gradient">(ni ganes) de cuidar-te més?</span>
+          És hora de cuidar-te i sentir-te bé<br />
+          <span className="text-gradient">amb el teu cos</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
-          No és mandra ni poca disciplina, és no tenir un <strong>pla clar, senzill i estructurat.</strong>
+          Millora la teva qualitat de vida amb un <strong>pla personalitzat que s'adapta al teu ritme.</strong> És qüestió de tenir les eines adequades i créixer en el procés.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

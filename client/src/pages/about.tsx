@@ -68,7 +68,7 @@ export default function About() {
               </li>
               <li className="flex items-center">
                 <i className="fas fa-check text-primary mr-3"></i>
-                <span>Suport 24/7 per l'equip expert</span>
+                <span>Atenció personalitzada i seguiment del procés</span>
               </li>
             </ul>
           </div>

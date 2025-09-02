@@ -15,7 +15,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Els Nostres Serveis</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Plans personalitzats d'entrenament i nutrició adaptats a la teva vida i objectius
+            Cuidem la teva salut amb plans personalitzats que s'adapten al teu estil de vida per millorar la teva qualitat de vida
           </p>
         </div>
         
@@ -27,7 +27,7 @@ export default function ServicesSection() {
                 <i className="fas fa-laptop text-3xl text-primary-foreground"></i>
               </div>
               <h3 className="text-2xl font-bold mb-2">Plans Online Trimestrals</h3>
-              <p className="text-muted-foreground">Nutrició i entrenament personalitzat des de casa</p>
+              <p className="text-muted-foreground">Cuida't des de casa amb un pla integral per sentir-te millor</p>
             </div>
             
             <div className="space-y-4 mb-8">
@@ -72,7 +72,7 @@ export default function ServicesSection() {
                 <i className="fas fa-user-friends text-3xl text-accent-foreground"></i>
               </div>
               <h3 className="text-2xl font-bold mb-2">Entrenament Personal</h3>
-              <p className="text-muted-foreground">Sessions presencials amb plans de subscripció mensual</p>
+              <p className="text-muted-foreground">Atenció personalitzada per aconseguir els teus objectius de salut</p>
             </div>
             
             <div className="space-y-4 mb-8">
