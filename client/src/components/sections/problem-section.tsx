@@ -3,21 +3,21 @@ export default function ProblemSection() {
     {
       icon: "fas fa-battery-quarter",
       title: "Energia baixa",
-      description: "Et sents cansat durant el dia i t'agradaria tenir més vitalitat per gaudir del temps amb la família.",
+      description: "Et sents cansat durant el dia i t'agradaria tenir més vitalitat, ja sigui per jugar amb els teus fills o per gaudir de l'oci amb qui vulguis.",
     },
     {
       icon: "fas fa-user-times",
-      title: "Vols sentir-te millor",
+      title: "Falta de confiança",
       description: "T'agradaria veure't i sentir-te més en forma, amb un físic que et faci sentir segur i còmode.",
     },
     {
       icon: "fas fa-brain",
-      title: "Claredat mental",
-      description: "Vols millorar la teva concentració i sentir-te més enfocat en les decisions importants.",
+      title: "Falta de motivació",
+      description: "La falta d'objectius, terminis i d'un pla estructurat fa que no estiguis motivat.",
     },
     {
       icon: "fas fa-pills",
-      title: "Necessites orientació",
+      title: "No saps com començar",
       description: "T'agradaria tenir una guia clara sobre què fer per millorar la teva salut i forma física.",
     },
   ];
@@ -33,7 +33,7 @@ export default function ProblemSection() {
           {problems.map((problem, index) => (
             <div 
               key={index} 
-              className="text-center p-6 bg-card rounded-lg shadow-sm hover-lift"
+              className="text-center p-8 glass-card rounded-2xl elegant-shadow hover-lift border border-border/30"
               data-testid={`card-problem-${index}`}
             >
               <div className="w-16 h-16 bg-destructive rounded-full flex items-center justify-center mx-auto mb-4">

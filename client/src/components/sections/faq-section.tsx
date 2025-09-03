@@ -10,18 +10,18 @@ export default function FAQSection() {
     },
     {
       question: "En quant temps veuré resultats?",
-      answer: "Depèn del teu punt de partida, però millores d'energia i descans en les primeres 2 setmanes. Els canvis físics necessiten més treball, però en 60-90 dies s'aconsegueixen canvis significatius.",
+      answer: "Depèn del teu punt de partida i del temps que hi dediquis, però millores d'energia i descans en el primer mes, els canvis físics necessiten visibles en 3 mesos, i els canvis profunds d'hàbits i estil de vida, en 1 any.",
     },
     {
-      question: "Viatge molt, menjo fora i la meva vida no és estable... serveix per mi?",
+      question: "Viatjo molt, menjo fora i la meva vida no és estable... serveix per mi?",
       answer: "Precisament per això, SÍ. El nostre sistema s'adapta a qualsevol situació i estil de vida.",
     },
     {
-      question: "Tinc +40 anys i fa molt que no faig res",
-      answer: "La majoria dels nostres clients tenen entre 35 i 60 anys i arriben amb dolors, panxa o anys sense cuidar-se. El pla s'adapta 100% a la teva condició actual.",
+      question: "Tinc ,és de 35 anys i fa molt que no faig res",
+      answer: "La majoria dels nostres clients tenen entre 35 i 60 anys i arriben amb dolors, sobrepes o anys sense cuidar-se. El pla s'adapta 100% a la teva condició actual.",
     },
     {
-      question: "Entren al gimnàs o a casa?",
+      question: "He d'entrenar al gimnàs o a casa?",
       answer: "On prefereixis o puguis. Preparem cada setmana enfocada a la teva disponibilitat, per gimnàs, casa o hotel amb el material mínim si cal.",
     },
   ];

@@ -8,13 +8,13 @@ export default function HowItWorksSection() {
     },
     {
       number: 2,
-      title: "El teu equip, 24/7 amb tu",
-      description: "Un entrenador personal, una nutricionista i un coach d'hàbits treballen per tu. Tot dins d'un grup privat de WhatsApp.",
+      title: "El teu objectiu, el nostre repte",
+      description: "Un entrenador personal i una nutricionista treballarem per tu, amb la certesa que no fem programes massificats.",
       color: "primary",
     },
     {
       number: 3,
-      title: "Estratègia personalitzada (real)",
+      title: "Estratègia personalitzada",
       description: "Dissenyem conjuntament un pla complet a la teva mida segons el teu nivell, els teus horaris i fins i tot els teus gustos personals.",
       color: "primary",
     },
@@ -32,7 +32,7 @@ export default function HowItWorksSection() {
     },
     {
       number: 6,
-      title: "Resultats garantits",
+      title: "Resultats inevitables",
       description: "Amb el nostre mètode provat i l'acompanyament constant, els resultats arriben de forma natural i sostenible.",
       color: "accent",
     },

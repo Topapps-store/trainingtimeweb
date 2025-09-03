@@ -19,13 +19,13 @@ export default function DecisionSection() {
     {
       number: 2,
       title: "PROVAR PER TU MATEIX",
-      description: "Intentar trobat la teva pròpia solució amb la informació que trobes per internet, encara que pot ser un camí més llarg.",
+      description: "Intentar trobar la teva pròpia solució amb la informació que trobes per internet, encara que pot ser un camí més llarg.",
       color: "accent",
     },
     {
       number: 3,
       title: "INVERTIR EN LA TEVA SALUT",
-      description: "Decidir-te a cuidar-te amb l'ajuda d'un professional i un mètode personalitzat que t'acompanyi en el procés.",
+      description: "Decidir-te a cuidar-te amb l'ajuda de professionals i un pla personalitzat que t'acompanyi en el procés.",
       color: "primary",
     },
   ];
@@ -63,15 +63,15 @@ export default function DecisionSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={handleFormClick}
-              className="bg-success text-success-foreground px-10 py-4 rounded-lg text-lg font-bold hover:opacity-90 transition-opacity shadow-lg"
+              className="bg-success text-success-foreground px-12 py-4 rounded-full text-lg font-bold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
               data-testid="button-form-cta"
             >
-              <i className="fas fa-clipboard-check mr-2"></i>
+              <i className="fas fa-clipboard-check mr-3"></i>
               OMPLIR FORMULARI
             </button>
             <button
               onClick={handleFinalCTAClick}
-              className="bg-primary text-primary-foreground px-12 py-4 rounded-lg text-xl font-bold hover:opacity-90 transition-opacity"
+              className="luxury-gradient text-primary-foreground px-14 py-4 rounded-full text-xl font-bold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
               data-testid="button-final-cta"
             >
               SOL·LICITAR ACCÉS

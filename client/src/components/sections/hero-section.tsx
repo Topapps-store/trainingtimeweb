@@ -20,28 +20,28 @@ export default function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
-          Millora la teva qualitat de vida amb un <strong>pla personalitzat que s'adapta al teu ritme.</strong> És qüestió de tenir les eines adequades i créixer en el procés.
+          Millora la teva qualitat de vida amb un <strong>pla personalitzat que s'adapta al teu ritme.</strong> Si tens unn objectiu i un pla estructurat, els resultats només són una conseqüència.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <button
             onClick={handleFormClick}
-            className="bg-success text-success-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity shadow-lg"
+            className="bg-success text-success-foreground px-10 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
             data-testid="button-hero-form"
           >
-            <i className="fas fa-clipboard-check mr-2"></i>
+            <i className="fas fa-clipboard-check mr-3"></i>
             Formulari d'Interès
           </button>
           <button
             onClick={handleContactClick}
-            className="bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
+            className="luxury-gradient text-primary-foreground px-10 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
             data-testid="button-hero-contact"
           >
-            <i className="fab fa-whatsapp mr-2"></i>
+            <i className="fab fa-whatsapp mr-3"></i>
             Més Informació
           </button>
           <Link href="/serveis">
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-foreground transition-colors">
+            <button className="border-2 border-primary text-primary px-10 py-4 rounded-full text-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300 tracking-wide">
               Veure Serveis
             </button>
           </Link>

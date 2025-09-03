@@ -7,7 +7,7 @@ interface TrainingTimeLogoProps {
   variant?: "color" | "white" | "black";
 }
 
-export default function TrainingTimeLogo({ className = "h-12 w-auto", variant = "color" }: TrainingTimeLogoProps) {
+export default function TrainingTimeLogo({ className = "h-16 w-auto", variant = "color" }: TrainingTimeLogoProps) {
   const getLogoSrc = () => {
     switch (variant) {
       case "white":

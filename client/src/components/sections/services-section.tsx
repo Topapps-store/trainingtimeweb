@@ -21,7 +21,7 @@ export default function ServicesSection() {
         
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Online Quarterly Plans */}
-          <div className="bg-card rounded-xl shadow-lg p-8 border hover-lift">
+          <div className="glass-card rounded-2xl elegant-shadow p-10 hover-lift border-2 border-primary/20">
             <div className="text-center mb-8">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                 <i className="fas fa-laptop text-3xl text-primary-foreground"></i>
@@ -57,7 +57,7 @@ export default function ServicesSection() {
               <div className="text-3xl font-bold text-primary mb-2">Consultar Preus</div>
               <button
                 onClick={handleOnlinePlanClick}
-                className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                className="w-full luxury-gradient text-primary-foreground py-4 rounded-full font-semibold hover:opacity-90 transition-all duration-300 tracking-wide elegant-shadow"
                 data-testid="button-online-plan"
               >
                 Sol·licitar Informació
@@ -66,7 +66,7 @@ export default function ServicesSection() {
           </div>
           
           {/* Monthly Personal Training */}
-          <div className="bg-card rounded-xl shadow-lg p-8 border hover-lift">
+          <div className="glass-card rounded-2xl elegant-shadow p-10 hover-lift border-2 border-accent/20">
             <div className="text-center mb-8">
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
                 <i className="fas fa-user-friends text-3xl text-accent-foreground"></i>
@@ -102,7 +102,7 @@ export default function ServicesSection() {
               <div className="text-3xl font-bold text-accent mb-2">Plans Mensuals</div>
               <button
                 onClick={handlePersonalTrainingClick}
-                className="w-full bg-accent text-accent-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                className="w-full bg-accent text-accent-foreground py-4 rounded-full font-semibold hover:opacity-90 transition-all duration-300 tracking-wide elegant-shadow"
                 data-testid="button-personal-training"
               >
                 Reservar Consulta

@@ -40,8 +40,8 @@ export default function ResultsGallery() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Casos Reals. Resultats Reals.</h2>
           <p className="text-xl text-muted-foreground">
-            NO tenen més temps que tu. NO tenen cuiners a casa. NO tenen menys edat ni un metabolisme diferent.<br />
-            <strong>Són homes iguals que tu</strong>, però que van donar el pas <strong>sense excuses.</strong>
+            Cadascú amb la seva història, el seu context i les seves circumstàncies, han sabut trobar la manera. I tu, t'hi animes?<br />
+          
           </p>
         </div>
         

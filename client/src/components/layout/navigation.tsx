@@ -19,7 +19,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+      <nav className="glass-card sticky top-0 z-50 elegant-shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
@@ -46,7 +46,7 @@ export default function Navigation() {
               ))}
               <button
                 onClick={handleContactClick}
-                className="bg-primary text-primary-foreground px-6 py-2 rounded-md hover:opacity-90 transition-opacity font-semibold"
+                className="luxury-gradient text-primary-foreground px-8 py-3 rounded-full hover:opacity-90 transition-all duration-300 font-semibold tracking-wide elegant-shadow"
                 data-testid="button-contact"
               >
                 Contacte
