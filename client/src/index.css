@@ -116,3 +116,23 @@
 .elegant-shadow {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.9);
 }
+
+.light-section {
+  background: linear-gradient(135deg, #F8F8F8 0%, #E8E8E8 50%, #F5F5F5 100%);
+  color: #1A1A1A;
+}
+
+.light-section .text-muted-foreground {
+  color: #666666 !important;
+}
+
+.light-section .glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #1A1A1A;
+}
+
+.light-section h1, .light-section h2, .light-section h3, .light-section h4, .light-section h5, .light-section h6 {
+  color: #1A1A1A;
+}

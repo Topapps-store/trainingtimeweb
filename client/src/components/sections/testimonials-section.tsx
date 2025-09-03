@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">El que diuen, els que ens coneixen</h2>

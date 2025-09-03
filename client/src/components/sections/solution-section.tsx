@@ -34,7 +34,7 @@ export default function SolutionSection() {
   };
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
           Si has fet aquell "click" tan necessari per tornar a...

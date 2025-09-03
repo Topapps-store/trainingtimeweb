@@ -25,20 +25,12 @@ export default function HeroSection() {
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <button
-            onClick={handleFormClick}
-            className="bg-success text-success-foreground px-10 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
-            data-testid="button-hero-form"
-          >
-            <i className="fas fa-clipboard-check mr-3"></i>
-            Formulari d'Interès
-          </button>
-          <button
             onClick={handleContactClick}
-            className="luxury-gradient text-primary-foreground px-10 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
+            className="luxury-gradient text-primary-foreground px-12 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
             data-testid="button-hero-contact"
           >
             <i className="fab fa-whatsapp mr-3"></i>
-            Més Informació
+            Contacta'ns
           </button>
           <Link href="/serveis">
             <button className="border-2 border-primary text-primary px-10 py-4 rounded-full text-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300 tracking-wide">

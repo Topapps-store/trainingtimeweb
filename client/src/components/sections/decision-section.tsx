@@ -63,7 +63,7 @@ export default function DecisionSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
               onClick={handleFormClick}
-              className="bg-success text-success-foreground px-12 py-4 rounded-full text-lg font-bold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
+              className="luxury-gradient text-primary-foreground px-12 py-4 rounded-full text-lg font-bold hover:opacity-90 transition-all duration-300 elegant-shadow tracking-wide"
               data-testid="button-form-cta"
             >
               <i className="fas fa-clipboard-check mr-3"></i>

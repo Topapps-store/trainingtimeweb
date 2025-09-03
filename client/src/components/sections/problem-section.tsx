@@ -23,7 +23,7 @@ export default function ProblemSection() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-muted">
+    <section className="py-20 px-4 light-section">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Quan dediquem tota la nostra energia a la feina, sovint descuidem aspectes importants...
