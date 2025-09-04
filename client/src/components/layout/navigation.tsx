@@ -9,7 +9,6 @@ export default function Navigation() {
   const navigationLinks = [
     { href: "/", label: "Inici" },
     { href: "/serveis", label: "Serveis" },
-    { href: "/sobre-mi", label: "Sobre Mi" },
   ];
 
   const handleContactClick = () => {
