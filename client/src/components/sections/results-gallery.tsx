@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+"import { useQuery } from "@tanstack/react-query";
 import type { Transformation } from "@shared/schema";
 
 export default function ResultsGallery() {
