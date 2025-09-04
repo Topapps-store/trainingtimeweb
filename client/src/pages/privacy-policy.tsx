@@ -2,9 +2,9 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-4 py-20">
-        <h1 className="text-4xl font-bold text-center mb-12">Política de Privacitat</h1>
+        <h1 className="text-4xl font-bold text-center mb-12 text-white">Política de Privacitat</h1>
         
-        <div className="prose prose-lg max-w-none space-y-8">
+        <div className="prose prose-lg max-w-none space-y-8 text-white">
           <section>
             <h2 className="text-2xl font-semibold mb-4">1. Informació general</h2>
             <p className="mb-4">
