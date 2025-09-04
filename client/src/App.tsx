@@ -8,6 +8,8 @@ import Home from "@/pages/home";
 import Services from "@/pages/services";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import TermsOfUse from "@/pages/terms-of-use";
 import Navigation from "@/components/layout/navigation";
 import Footer from "@/components/layout/footer";
 
@@ -21,6 +23,8 @@ function Router() {
           <Route path="/serveis" component={Services} />
           <Route path="/sobre-mi" component={About} />
           <Route path="/contacte" component={Contact} />
+          <Route path="/politica-privacitat" component={PrivacyPolicy} />
+          <Route path="/condicions-us" component={TermsOfUse} />
           <Route component={NotFound} />
         </Switch>
       </main>

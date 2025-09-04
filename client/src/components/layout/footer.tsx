@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/serveis" className="hover:text-primary transition-colors">
-                  Coaching d'Hàbits
+                  
                 </Link>
               </li>
             </ul>
@@ -76,14 +76,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <Link href="/politica-privacitat" className="hover:text-primary transition-colors">
                   Política de Privacitat
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-primary transition-colors">
+                <Link href="/condicions-us" className="hover:text-primary transition-colors">
                   Condicions d'Ús
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contacte</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li data-testid="text-phone">+376 379 750</li>
-              <li data-testid="text-email">info@trainingtime.cat</li>
+              <li data-testid="text-email">info@trainingtime.ad</li>
             </ul>
           </div>
         </div>
