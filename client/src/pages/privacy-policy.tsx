@@ -6,14 +6,14 @@ export default function PrivacyPolicy() {
         
         <div className="prose prose-lg max-w-none space-y-8 text-white">
           <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Informació general</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">1. Informació general</h2>
             <p className="mb-4">
               Aquesta Política de Privacitat regula el tractament de les dades personals que Training Time recull a través del seu lloc web i serveis. Complim amb la <strong>Llei 15/2014, del 24 de juliol, qualificada de regulació del tractament de dades personals</strong> del Principat d'Andorra i el Reglament General de Protecció de Dades (RGPD) de la Unió Europea.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">2. Responsable del tractament</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">2. Responsable del tractament</h2>
             <p className="mb-4">
               <strong>Training Time</strong><br />
               Correu electrònic: info@trainingtime.ad<br />
@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Dades que recopilem</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">3. Dades que recopilem</h2>
             <p className="mb-4">Recopilem les següents categories de dades personals:</p>
             <ul className="list-disc list-inside space-y-2 mb-4">
               <li><strong>Dades d'identificació:</strong> Nom, cognoms, correu electrònic</li>
@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Finalitats del tractament</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">4. Finalitats del tractament</h2>
             <p className="mb-4">Tractem les seves dades personals per a les següents finalitats:</p>
             <ul className="list-disc list-inside space-y-2 mb-4">
               <li>Prestació dels serveis d'entrenament personal i assessorament nutricional</li>
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">5. Base legal del tractament</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">5. Base legal del tractament</h2>
             <p className="mb-4">El tractament de les seves dades personals es basa en:</p>
             <ul className="list-disc list-inside space-y-2 mb-4">
               <li><strong>Consentiment:</strong> Quan ens facilita les seves dades de forma voluntària</li>
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">6. Conservació de les dades</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">6. Conservació de les dades</h2>
             <p className="mb-4">
               Les dades personals es conservaran durant el temps necessari per a les finalitats per les quals van ser recollides:
             </p>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">7. Destinataris de les dades</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">7. Destinataris de les dades</h2>
             <p className="mb-4">
               Les seves dades personals no seran cedides a tercers, excepte en els següents casos:
             </p>
@@ -81,14 +81,14 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">8. Transferències internacionals</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">8. Transferències internacionals</h2>
             <p className="mb-4">
               En cas de transferències internacionals de dades, aquestes es realitzaran amb les garanties adequades segons la normativa andorrana i europea de protecció de dades.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">9. Drets dels interessats</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">9. Drets dels interessats</h2>
             <p className="mb-4">Conformement a la legislació andorrana, té els següents drets:</p>
             <ul className="list-disc list-inside space-y-2 mb-4">
               <li><strong>Dret d'accés:</strong> Obtenir informació sobre les dades que tractem</li>
@@ -104,35 +104,35 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">10. Seguretat de les dades</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">10. Seguretat de les dades</h2>
             <p className="mb-4">
               Implementem mesures tècniques i organitzatives adequades per garantir la seguretat de les seves dades personals i protegir-les contra l'accés no autoritzat, la pèrdua, la destrucció o l'alteració accidental.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">11. Cookies i tecnologies similars</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">11. Cookies i tecnologies similars</h2>
             <p className="mb-4">
               El nostre lloc web utilitza cookies tècniques necessàries per al seu funcionament. No utilitzem cookies de seguiment o publicitàries sense el seu consentiment previ.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">12. Modificacions de la Política</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">12. Modificacions de la Política</h2>
             <p className="mb-4">
               Ens reservem el dret a modificar aquesta Política de Privacitat. Les modificacions seran notificades a través del nostre lloc web amb una antelació mínima de 30 dies.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">13. Autoritat de control</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">13. Autoritat de control</h2>
             <p className="mb-4">
               En cas de considerar que el tractament de les seves dades personals vulnera la normativa aplicable, pot presentar una reclamació davant l'<strong>Agència Andorrana de Protecció de Dades (APDA)</strong>.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">14. Contacte</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-white">14. Contacte</h2>
             <p className="mb-4">
               Per a qualsevol consulta relacionada amb aquesta Política de Privacitat o l'exercici dels seus drets, pot contactar-nos a:
             </p>
