@@ -43,7 +43,7 @@ export default function SolutionSection() {
           {solutions.map((solution, index) => (
             <div 
               key={index} 
-              className="p-6 bg-card rounded-lg shadow-sm border hover-lift"
+              className={`p-6 bg-card rounded-lg shadow-sm border hover-lift ${index === 4 ? 'md:col-span-2 lg:col-span-1 lg:col-start-2' : ''}`}
               data-testid={`card-solution-${index}`}
             >
               <div className="w-16 h-16 bg-success rounded-full flex items-center justify-center mx-auto mb-4">

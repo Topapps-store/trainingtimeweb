@@ -93,7 +93,6 @@ export default function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li data-testid="text-phone">+376 379 750</li>
               <li data-testid="text-email">info@trainingtime.cat</li>
-              <li data-testid="text-location">Barcelona, Catalunya</li>
             </ul>
           </div>
         </div>

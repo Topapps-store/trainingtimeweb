@@ -91,7 +91,7 @@ export default function Contact() {
                 <i className="fas fa-map-marker-alt text-2xl text-primary mr-4"></i>
                 <div>
                   <div className="font-semibold">Ubicació</div>
-                  <div className="text-muted-foreground" data-testid="text-location">Barcelona, Catalunya</div>
+                  <div className="text-muted-foreground" data-testid="text-location">Andorra la Vella, Andorra</div>
                 </div>
               </div>
             </div>

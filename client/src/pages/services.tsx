@@ -24,8 +24,8 @@ export default function Services() {
             <div>
               <h3 className="text-3xl font-bold mb-6">Plans Online Trimestrals</h3>
               <p className="text-lg text-muted-foreground mb-6">
-                El nostre programa online està dissenyat per a persones amb poc temps però grans ambicions. 
-                Cada trimestre, rebràs un pla completament personalitzat que s'adapta als teus horaris i estil de vida.
+                El nostre programa online està dissenyat per a persones que volen un canvi real a la seva vida, sense modes ni miracles. 
+                Cada trimestre tindràs un programa completament personalitzat que s'adapta als teus horaris i estil de vida.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center">
@@ -38,7 +38,7 @@ export default function Services() {
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-check text-primary mr-3"></i>
-                  <span>Suport constant per WhatsApp</span>
+                  <span>Seguiment setmanal amb trucada i amb APP pròpia</span>
                 </li>
               </ul>
               <button
@@ -79,11 +79,11 @@ export default function Services() {
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-check text-accent mr-3"></i>
-                  <span>Horaris flexibles adaptats a tu</span>
+                  <span>Tria quants dies vols entrenar a la setmana</span>
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-check text-accent mr-3"></i>
-                  <span>Seguiment nutricional inclòs</span>
+                  <span>Seguiment nutricional i APP amb pla individualitzat inclòs</span>
                 </li>
               </ul>
               <button

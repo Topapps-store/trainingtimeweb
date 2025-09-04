@@ -24,7 +24,7 @@ export default function About() {
                   "Em dic <strong>Francesc Cremades</strong> i porto més de 12 anys treballant com a entrenador personal, amb 3 anys d'experiència com a preparador físic a l'ACB.
                 </p>
                 <p data-testid="text-founder-experience">
-                  Com a pare de dos nens i amb experiència en alt rendiment esportiu, he ajudat a més de 100 persones a transformar el seu físic. Després de veure els mateixos problemes en homes +40 anys amb feines molt exigents, vaig decidir crear per a ells el programa <strong>TRAINING TIME.</strong>
+                  Com a pare de dos nens i amb experiència en alt rendiment esportiu, he ajudat a més de 100 persones a transformar el seu físic. Després de veure els mateixos problemes en persones adultes i amb feines molt exigents, vaig decidir crear per a ells el programa <strong>CANVIANT VIDES</strong>
                 </p>
                 <p data-testid="text-founder-mission">
                   Un sistema exclusiu perquè, els que tenen molt poc temps lliure, puguin tenir un <strong>físic en forma, potenciar el seu rendiment i assegurar una salut present i futura.</strong>"
@@ -76,13 +76,13 @@ export default function About() {
           <div className="bg-card p-8 rounded-lg shadow-sm border">
             <h3 className="text-2xl font-bold mb-4">Per Què Training Time?</h3>
             <p className="text-muted-foreground mb-4">
-              Ens especialitzem en homes ocupats que volen resultats reals sense sacrificar 
+              Ens especialitzem en persones que volen resultats reals sense sacrificar 
               la seva carrera professional ni el temps amb la família.
             </p>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <i className="fas fa-check text-primary mr-3"></i>
-                <span>Experiència demostrada amb centenars de clients</span>
+                <span>Experiència demostrada</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-check text-primary mr-3"></i>
