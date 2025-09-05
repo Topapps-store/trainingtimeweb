@@ -72,4 +72,16 @@ The storage layer uses an interface pattern allowing for easy swapping between i
 - **@replit/vite-plugin-runtime-error-modal** - Development error handling
 - **tsx** - TypeScript execution for Node.js
 
-The application is designed to be deployed on platforms like Replit with easy environment variable configuration for the database connection.
+## Deployment Configuration
+
+### For Cloudflare Pages (from GitHub):
+- **Root directory**: `client`
+- **Build command**: `npm run build`
+- **Output directory**: `../dist/public`
+
+### Project Structure:
+- Root project contains full-stack setup for development
+- `client/` directory contains frontend-specific package.json for deployment
+- Build outputs to `dist/public` from root via Vite configuration
+
+The application is designed to be deployed on platforms like Replit for development and Cloudflare Pages for production, with easy environment variable configuration for the database connection.
