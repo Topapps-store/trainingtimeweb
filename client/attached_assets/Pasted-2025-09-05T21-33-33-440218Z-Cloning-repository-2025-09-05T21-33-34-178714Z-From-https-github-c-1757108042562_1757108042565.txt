@@ -1,0 +1,47 @@
+2025-09-05T21:33:33.440218Z	Cloning repository...
+2025-09-05T21:33:34.178714Z	From https://github.com/Topapps-store/trainingtimeweb
+2025-09-05T21:33:34.17927Z	 * branch            9739161cf3e172b1ecad7f877831d7364e8bdb88 -> FETCH_HEAD
+2025-09-05T21:33:34.179395Z	
+2025-09-05T21:33:34.230075Z	HEAD is now at 9739161 Update project structure for easier deployment and development workflows
+2025-09-05T21:33:34.230673Z	
+2025-09-05T21:33:34.310913Z	
+2025-09-05T21:33:34.311411Z	Using v2 root directory strategy
+2025-09-05T21:33:34.332242Z	Success: Finished cloning repository files
+2025-09-05T21:33:36.059002Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-09-05T21:33:36.060317Z	
+2025-09-05T21:33:37.233395Z	No wrangler.toml file found. Continuing.
+2025-09-05T21:33:37.308634Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2025-09-05T21:33:37.309141Z	Installing project dependencies: npm install --progress=false
+2025-09-05T21:33:45.280224Z	
+2025-09-05T21:33:45.280577Z	added 62 packages, and audited 63 packages in 8s
+2025-09-05T21:33:45.280738Z	
+2025-09-05T21:33:45.280896Z	7 packages are looking for funding
+2025-09-05T21:33:45.281023Z	  run `npm fund` for details
+2025-09-05T21:33:45.287114Z	
+2025-09-05T21:33:45.287537Z	2 moderate severity vulnerabilities
+2025-09-05T21:33:45.287655Z	
+2025-09-05T21:33:45.287807Z	To address all issues (including breaking changes), run:
+2025-09-05T21:33:45.288008Z	  npm audit fix --force
+2025-09-05T21:33:45.288123Z	
+2025-09-05T21:33:45.288236Z	Run `npm audit` for details.
+2025-09-05T21:33:45.316253Z	Executing user command: npm run build
+2025-09-05T21:33:45.71111Z	
+2025-09-05T21:33:45.711412Z	> training-time-client@1.0.0 build
+2025-09-05T21:33:45.711602Z	> cd .. && npx vite build
+2025-09-05T21:33:45.711786Z	
+2025-09-05T21:33:46.477424Z	npm warn exec The following package was not found and will be installed: vite@7.1.4
+2025-09-05T21:33:48.377429Z	[31mfailed to load config from /opt/buildhome/repo/vite.config.ts[39m
+2025-09-05T21:33:48.377677Z	[31merror during build:
+2025-09-05T21:33:48.377847Z	Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /opt/buildhome/repo/vite.config.ts.timestamp-1757108028373-5854f0ea25ea2.mjs
+2025-09-05T21:33:48.377923Z	    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+2025-09-05T21:33:48.378079Z	    at packageResolve (node:internal/modules/esm/resolve:768:81)
+2025-09-05T21:33:48.378275Z	    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+2025-09-05T21:33:48.378396Z	    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+2025-09-05T21:33:48.378551Z	    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+2025-09-05T21:33:48.378697Z	    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+2025-09-05T21:33:48.378827Z	    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+2025-09-05T21:33:48.37893Z	    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+2025-09-05T21:33:48.379128Z	    at ModuleJob._link (node:internal/modules/esm/module_job:137:49)[39m
+2025-09-05T21:33:48.411784Z	Failed: Error while executing user command. Exited with error code: 1
+2025-09-05T21:33:48.42163Z	Failed: build command exited with code: 1
+2025-09-05T21:33:49.652615Z	Failed: error occurred while running build command
