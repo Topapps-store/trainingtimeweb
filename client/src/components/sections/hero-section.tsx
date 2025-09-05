@@ -15,8 +15,8 @@ export default function HeroSection() {
     <section className="hero-gradient text-white py-20 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          És hora de cuidar-te i sentir-te bé<br />
-          <span className="text-gradient">amb el teu cos</span>
+          És hora de cuidar-te i <br />
+          <span className="text-gradient">sentir-te bé</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-4xl mx-auto">
