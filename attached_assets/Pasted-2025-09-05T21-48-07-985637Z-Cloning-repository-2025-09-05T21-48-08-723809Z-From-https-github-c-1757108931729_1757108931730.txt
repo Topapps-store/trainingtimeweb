@@ -1,0 +1,51 @@
+2025-09-05T21:48:07.985637Z	Cloning repository...
+2025-09-05T21:48:08.723809Z	From https://github.com/Topapps-store/trainingtimeweb
+2025-09-05T21:48:08.72426Z	 * branch            1ab3f27be24bfcaa3e25e11134630b61c5d91d67 -> FETCH_HEAD
+2025-09-05T21:48:08.724363Z	
+2025-09-05T21:48:08.803151Z	HEAD is now at 1ab3f27 Update project configuration and styling
+2025-09-05T21:48:08.80353Z	
+2025-09-05T21:48:08.891667Z	
+2025-09-05T21:48:08.892098Z	Using v2 root directory strategy
+2025-09-05T21:48:08.911857Z	Success: Finished cloning repository files
+2025-09-05T21:48:10.708661Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-09-05T21:48:10.709475Z	
+2025-09-05T21:48:11.814753Z	No wrangler.toml file found. Continuing.
+2025-09-05T21:48:11.882868Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2025-09-05T21:48:11.8834Z	Installing project dependencies: npm install --progress=false
+2025-09-05T21:48:31.750372Z	
+2025-09-05T21:48:31.750703Z	added 311 packages, and audited 312 packages in 19s
+2025-09-05T21:48:31.750872Z	
+2025-09-05T21:48:31.751018Z	45 packages are looking for funding
+2025-09-05T21:48:31.751199Z	  run `npm fund` for details
+2025-09-05T21:48:31.757069Z	
+2025-09-05T21:48:31.757283Z	2 moderate severity vulnerabilities
+2025-09-05T21:48:31.757419Z	
+2025-09-05T21:48:31.757534Z	To address all issues (including breaking changes), run:
+2025-09-05T21:48:31.757707Z	  npm audit fix --force
+2025-09-05T21:48:31.757855Z	
+2025-09-05T21:48:31.757987Z	Run `npm audit` for details.
+2025-09-05T21:48:31.789905Z	Executing user command: npm run build
+2025-09-05T21:48:32.192209Z	
+2025-09-05T21:48:32.192417Z	> training-time-client@1.0.0 build
+2025-09-05T21:48:32.192495Z	> vite build
+2025-09-05T21:48:32.192579Z	
+2025-09-05T21:48:32.449777Z	[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+2025-09-05T21:48:32.789962Z	transforming...
+2025-09-05T21:48:34.094222Z	[32m✓[39m 90 modules transformed.
+2025-09-05T21:48:34.101985Z	[31mx[39m Build failed in 1.63s
+2025-09-05T21:48:34.102819Z	[31merror during build:
+2025-09-05T21:48:34.103018Z	[31m[vite]: Rollup failed to resolve import "drizzle-orm" from "/opt/buildhome/repo/client/shared/schema.ts".
+2025-09-05T21:48:34.103253Z	This is most likely unintended because it can break your application at runtime.
+2025-09-05T21:48:34.103368Z	If you do want to externalize this module explicitly add it to
+2025-09-05T21:48:34.103472Z	`build.rollupOptions.external`[31m
+2025-09-05T21:48:34.104071Z	    at viteWarn (file:///opt/buildhome/repo/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65839:17)
+2025-09-05T21:48:34.104206Z	    at onwarn (file:///opt/buildhome/repo/client/node_modules/@vitejs/plugin-react/dist/index.js:90:7)
+2025-09-05T21:48:34.104324Z	    at onRollupWarning (file:///opt/buildhome/repo/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65869:5)
+2025-09-05T21:48:34.104454Z	    at onwarn (file:///opt/buildhome/repo/client/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65534:7)
+2025-09-05T21:48:34.104566Z	    at file:///opt/buildhome/repo/client/node_modules/rollup/dist/es/shared/node-entry.js:20920:13
+2025-09-05T21:48:34.104688Z	    at Object.logger [as onLog] (file:///opt/buildhome/repo/client/node_modules/rollup/dist/es/shared/node-entry.js:22792:9)
+2025-09-05T21:48:34.104849Z	    at ModuleLoader.handleInvalidResolvedId (file:///opt/buildhome/repo/client/node_modules/rollup/dist/es/shared/node-entry.js:21536:26)
+2025-09-05T21:48:34.104962Z	    at file:///opt/buildhome/repo/client/node_modules/rollup/dist/es/shared/node-entry.js:21494:26[39m
+2025-09-05T21:48:34.128415Z	Failed: Error while executing user command. Exited with error code: 1
+2025-09-05T21:48:34.138092Z	Failed: build command exited with code: 1
+2025-09-05T21:48:35.635297Z	Failed: error occurred while running build command

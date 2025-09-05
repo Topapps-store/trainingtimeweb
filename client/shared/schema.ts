@@ -1,70 +1,71 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, timestamp, boolean } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+// Frontend-only types - no Drizzle dependencies
+export type User = {
+  id: string;
+  username: string;
+  password: string;
+};
+
+export type Contact = {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  service: string;
+  message?: string;
+  createdAt: Date;
+  isRead: boolean;
+};
+
+export type Testimonial = {
+  id: string;
+  name: string;
+  content: string;
+  rating: string;
+  imageUrl?: string;
+  isActive: boolean;
+  createdAt: Date;
+};
+
+export type Transformation = {
+  id: string;
+  clientName: string;
+  result: string;
+  imageUrl?: string;
+  isActive: boolean;
+  createdAt: Date;
+};
+
+// Zod schemas for form validation
+export const insertContactSchema = z.object({
+  name: z.string().min(1, "El nombre es obligatorio"),
+  email: z.string().email("Email no válido"),
+  phone: z.string().min(1, "El teléfono es obligatorio"),
+  service: z.string().min(1, "El servicio es obligatorio"),
+  message: z.string().optional(),
 });
 
-export const contacts = pgTable("contacts", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  name: text("name").notNull(),
-  email: text("email").notNull(),
-  phone: text("phone").notNull(),
-  service: text("service").notNull(),
-  message: text("message"),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
-  isRead: boolean("is_read").default(false).notNull(),
+export const insertUserSchema = z.object({
+  username: z.string().min(1, "El nombre de usuario es obligatorio"),
+  password: z.string().min(6, "La contraseña debe tener al menos 6 caracteres"),
 });
 
-export const testimonials = pgTable("testimonials", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  name: text("name").notNull(),
-  content: text("content").notNull(),
-  rating: varchar("rating").notNull().default("5"),
-  imageUrl: text("image_url"),
-  isActive: boolean("is_active").default(true).notNull(),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
+export const insertTestimonialSchema = z.object({
+  name: z.string().min(1, "El nombre es obligatorio"),
+  content: z.string().min(1, "El contenido es obligatorio"),
+  rating: z.string().default("5"),
+  imageUrl: z.string().optional(),
 });
 
-export const transformations = pgTable("transformations", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  clientName: text("client_name").notNull(),
-  result: text("result").notNull(),
-  imageUrl: text("image_url"),
-  isActive: boolean("is_active").default(true).notNull(),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
+export const insertTransformationSchema = z.object({
+  clientName: z.string().min(1, "El nombre del cliente es obligatorio"),
+  result: z.string().min(1, "El resultado es obligatorio"),
+  imageUrl: z.string().optional(),
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
-});
-
-export const insertContactSchema = createInsertSchema(contacts).omit({
-  id: true,
-  createdAt: true,
-  isRead: true,
-});
-
-export const insertTestimonialSchema = createInsertSchema(testimonials).omit({
-  id: true,
-  createdAt: true,
-});
-
-export const insertTransformationSchema = createInsertSchema(transformations).omit({
-  id: true,
-  createdAt: true,
-});
-
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
-export type Contact = typeof contacts.$inferSelect;
+// Export types for forms
 export type InsertContact = z.infer<typeof insertContactSchema>;
-export type Testimonial = typeof testimonials.$inferSelect;
+export type InsertUser = z.infer<typeof insertUserSchema>;
 export type InsertTestimonial = z.infer<typeof insertTestimonialSchema>;
-export type Transformation = typeof transformations.$inferSelect;
 export type InsertTransformation = z.infer<typeof insertTransformationSchema>;
