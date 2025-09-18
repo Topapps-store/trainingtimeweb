@@ -39,14 +39,11 @@ export default function SolutionSection() {
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
           Si has fet aquell "click" tan necessari per tornar a...
         </h2>        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 justify-items-center">
+        <div className="flex flex-wrap justify-center gap-8 mt-16 max-w-5xl mx-auto">
           {solutions.map((solution, index) => (
             <div 
               key={index} 
-              className={`p-6 bg-card rounded-lg shadow-sm border hover-lift ${
-                index === 3 ? 'lg:col-start-1' : 
-                index === 4 ? 'md:col-span-2 lg:col-start-3' : ''
-              }`}
+              className="p-6 bg-card rounded-lg shadow-sm border hover-lift w-full sm:w-80 md:w-72 lg:w-80"
               data-testid={`card-solution-${index}`}
             >
               <div className="w-16 h-16 bg-success rounded-full flex items-center justify-center mx-auto mb-4">
