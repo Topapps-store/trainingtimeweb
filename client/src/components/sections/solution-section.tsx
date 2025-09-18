@@ -2,8 +2,8 @@ export default function SolutionSection() {
   const solutions = [
     {
       icon: "fas fa-bolt",
-      title: "Més energia",
-      description: "Millora el descans, redueix l'ansietat i el cortison, recupera l'energia per mantenir-te motivat tot el dia i, així i tot, tenir força per gaudir la resta del dia.",
+      title: "Tenir més energia",
+      description: "Millorar el descans, reduir l'ansietat i el cortisol, recuperar l'energia per mantenir-te motivat tot el dia i tenir força per gaudir la resta del dia.",
     },
     {
       icon: "fas fa-dumbbell",
@@ -12,18 +12,18 @@ export default function SolutionSection() {
     },
     {
       icon: "fas fa-brain",
-      title: "Ment clara i decisions ràpides",
+      title: "Tenir la ment clara i àgil",
       description: "Mantenir-te durant tota la jornada enfocat i sense cansament mental, preparat per rendir al 100%.",
     },
   
     {
       icon: "fas fa-shield-alt",
-      title: "Un cos preparat pel present i futur",
-      description: "Minimitza les molèsties, sent-te jove i mantén-te àgil i saludable durant més anys.",
+      title: "Tenir un cos preparat pel present i futur",
+      description: "Minimitzar les molèsties, sentir-te jove, àgil i saludable durant més anys.",
     },
     {
       icon: "fas fa-clock",
-      title: "Temps i salut per al que importa",
+      title: "Gaudir de temps i salut per al que importa",
       description: "Perquè els diners serveixen de poc si no tens l'energia i els anys per gaudir-los.",
     },
   ];
@@ -39,7 +39,7 @@ export default function SolutionSection() {
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
           Si has fet aquell "click" tan necessari per tornar a...
         </h2>        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 justify-items-center">
           {solutions.map((solution, index) => (
             <div 
               key={index} 

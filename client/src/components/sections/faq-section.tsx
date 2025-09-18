@@ -17,7 +17,7 @@ export default function FAQSection() {
       answer: "Precisament per això, SÍ. El nostre sistema s'adapta a qualsevol situació i estil de vida.",
     },
     {
-      question: "Tinc ,és de 35 anys i fa molt que no faig res",
+      question: "Tinc més de 35 anys i fa molt que no faig res",
       answer: "La majoria dels nostres clients tenen entre 35 i 60 anys i arriben amb dolors, sobrepes o anys sense cuidar-se. El pla s'adapta 100% a la teva condició actual.",
     },
     {
